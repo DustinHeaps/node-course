@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "prod": "NODE_ENV=production npm run dev"
+    "prod": "NODE_ENV=production npm run dev",
+    "debug": "node --inspect server.js"
   },
   "author": "",
   "license": "ISC",
